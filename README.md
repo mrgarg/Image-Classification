@@ -1,9 +1,10 @@
 # Image-Classification
-Image classification is the process of taking an input (i.e. picture) and outputting a class (i.e. “cat”) or a probability that the 
-input is a particular class (for example: there’s a 90% probability that this input is a cat) 
+Image classification is the process of taking an input (i.e. picture) and outputting a class (i.e. “cat”) or a probability that the input is a particular class (for example: there’s a 90% probability that this input is a cat).
+
 Self-driving cars are a great example to understand where image classification is used in the real-world.
 
-in this model 4 types of different images are used ( cats,dogs,humans,horses) for training. Each category having 200 approx examples.
+in this model 4 types of different images are used (cats,dogs,humans,horses) for training. Each category having 200 approx examples.
+
 ### different steps are involved in the building of this model:
 1) dataset preparation using pathlib and keras which involve loading the image and conversion into numpy array.
 2) visualization using matplotlib.
